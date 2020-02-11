@@ -1,6 +1,14 @@
+
+
+/* Logo navbar */
 .img-max {
     max-width: 250px;
     width: 100%;
+}
+
+/* Logo footer */
+footer img {
+    max-width: 250px;
 }
 
 .carousel-item {
@@ -9,4 +17,19 @@
 
 #navContact {
     max-height: 5px;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
 }
